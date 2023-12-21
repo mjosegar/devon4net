@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devon4Net.Infrastructure.Test", "src\Devon4Net.Infrastructure.Test.csproj", "{13507EE4-A1BA-4F70-AEFB-60B0A4B6BFA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13507EE4-A1BA-4F70-AEFB-60B0A4B6BFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13507EE4-A1BA-4F70-AEFB-60B0A4B6BFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13507EE4-A1BA-4F70-AEFB-60B0A4B6BFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13507EE4-A1BA-4F70-AEFB-60B0A4B6BFA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BA8DE8E-94F0-451F-B12A-EF0EF3B58C78}
+	EndGlobalSection
+EndGlobal

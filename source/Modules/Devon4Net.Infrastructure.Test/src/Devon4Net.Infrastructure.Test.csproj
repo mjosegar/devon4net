@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net8.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <SignAssembly>false</SignAssembly>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Capgemini Valencia Spain</Authors>
+    <Company>Capgemini S.A.</Company>
+    <PackageLicenseUrl>https://oasp.github.io/TermsOfUse</PackageLicenseUrl>
+    <PackageProjectUrl>https://oasp.github.io</PackageProjectUrl>
+    <PackageIconUrl>https://avatars2.githubusercontent.com/u/7803029?s=200amp;v=4</PackageIconUrl>
+    <RepositoryUrl>https://github.com/oasp/oasp4net</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Copyright>Capgemini S.A.</Copyright>
+    <PackageTags>Capgemini devonfw devonfw4NET Traiectum Test</PackageTags>
+    <Product>Devon4Net</Product>
+    <Description>devonfw Base classes to create unit tests and integration tests with Moq and xUnit</Description>
+    <PackageId>Devon4Net.Infrastructure.Test</PackageId>
+    <PackageReleaseNotes>devonfw Base classes to create unit tests and integration tests with Moq and xUnit</PackageReleaseNotes>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
+    <FileVersion>2.1.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />
+    <PackageReference Include="Devon4Net.Domain.Context" Version="1.0.1" />
+    <PackageReference Include="Devon4Net.Infrastructure.Extensions" Version="6.0.6" />
+  </ItemGroup>
+
+</Project>
